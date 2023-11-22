@@ -1,0 +1,10 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #fff; /* Matches the homepage sections' background */
+  margin-top: 80px; /* Adjusts for fixed navbar */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 8px;
+}

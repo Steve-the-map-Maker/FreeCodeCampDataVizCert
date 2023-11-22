@@ -1,0 +1,91 @@
+body {
+  padding-top: 70px;
+  font-family: "Nunito", sans-serif; /* A modern, clean font */
+  background: #b4afaf; /* A light background to make content pop */
+}
+
+.navbar-custom {
+  background-color: #004d40;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #ffffff;
+}
+
+.navbar-custom .nav-link {
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-item.active .nav-link {
+  background-color: #357a38;
+}
+
+.header-section {
+  background-color: #afb3b0;
+  padding: 60px 0; /* Increased padding for a spacious look */
+  border-bottom: 5px solid #004d40; /* A touch of branding */
+}
+
+.challenge-section {
+  margin-top: 50px;
+  background: #9c9898;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for the sections */
+}
+
+.challenge-section h3 {
+  color: #2e7d32;
+  margin-bottom: 15px;
+}
+
+.challenge-section a.btn {
+  background-color: #357a38;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.challenge-section a.btn:hover {
+  background-color: #2e7d32;
+}
+
+.footer-section {
+  background-color: #004d40;
+  color: #ffffff;
+  padding: 40px 0;
+  margin-top: 50px;
+}
+
+.footer-section a {
+  color: #81c784;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #ffffff;
+}
+
+.footer-section p {
+  margin-bottom: 0; /* Remove margin to tighten up footer space */
+}
+
+/* Social media icons */
+.footer-section .fa {
+  font-size: 1.5em; /* Larger icons for better visibility */
+  margin-right: 10px;
+}
+
+/* Subtle hover effect for icons */
+.footer-section .fa:hover {
+  opacity: 0.7;
+}
+
+/* Responsive tweaks may be necessary depending on actual content */
+@media (max-width: 768px) {
+  .header-section {
+    padding: 30px 0; /* Less padding on smaller screens */
+  }
+}
